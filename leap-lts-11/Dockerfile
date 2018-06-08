@@ -8,11 +8,12 @@ RUN zypper --non-interactive ar -c -p 25 -r https://download.opensuse.org/reposi
  && zypper --non-interactive --gpg-auto-import-keys refresh \
  && zypper --non-interactive update \
  && zypper --non-interactive install -y \
-      alex		\
-      cabal-install	\
-      doctest		\
-      ghc		\
-      ghc-weeder	\
-      happy		\
-      hlint		\
-      stack
+      alex              \
+      bind-utils        \
+      cabal-install     \
+      doctest           \
+      ghc               \
+      ghc-weeder        \
+      happy             \
+      hlint             \
+      stack		\
