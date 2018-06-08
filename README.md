@@ -1,0 +1,1 @@
+# Development containers for openSUSE
