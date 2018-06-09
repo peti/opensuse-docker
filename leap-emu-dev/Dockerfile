@@ -32,8 +32,3 @@ RUN zypper --non-interactive update     \
       texlive-substr
 
 RUN Rscript --vanilla -e 'install.packages(c("data.table","xtable","RSQLite","plan"),repos="https://cloud.r-project.org")'
-
-# RUN zypper --non-interactive ar -c -p 20 -r http://download.suse.de/ibs/NON_Public:/maintenance:/smelt/openSUSE_Leap_15.0/NON_Public:maintenance:smelt.repo \
-#  && zypper --non-interactive --gpg-auto-import-keys refresh NON_Public_maintenance_smelt \
-#  && zypper --non-interactive install -y smelt \
-#  && echo >~/.smelt.conf  '{ "backend": { "database": "/var/lib/smelt" } }'
