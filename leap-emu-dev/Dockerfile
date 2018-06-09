@@ -8,6 +8,18 @@ RUN zypper --non-interactive update     \
       gcc-c++                           \
       ghostscript                       \
       make                              \
+      osc                               \
+      python                            \
+      python-base                       \
+      python-urlgrabber                 \
+      python-xml                        \
+      python2-cssselect                 \
+      python2-lxml                      \
+      python2-M2Crypto                  \
+      python2-pycurl                    \
+      python2-PyYAML                    \
+      python2-rpm                       \
+      python2-typing                    \
       python3-dateutil                  \
       R                                 \
       sqlite3                           \
