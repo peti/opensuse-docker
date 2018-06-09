@@ -7,7 +7,9 @@ RUN zypper --non-interactive update     \
  && zypper --non-interactive install -y \
       gcc-c++                           \
       ghostscript                       \
+      git                               \
       make                              \
+      openssh                           \
       osc                               \
       python                            \
       python-base                       \
@@ -22,6 +24,7 @@ RUN zypper --non-interactive update     \
       python2-typing                    \
       python3-dateutil                  \
       R                                 \
+      rsync                             \
       sqlite3                           \
       tar                               \
       texinfo                           \
