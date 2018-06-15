@@ -7,7 +7,6 @@ RUN zypper --non-interactive install -y \
         ghc-aeson-devel                 \
         ghc-attoparsec-devel            \
         ghc-base-compat-devel           \
-        ghc-distribution-suse-devel     \
         ghc-dlist-devel                 \
         ghc-extra-devel                 \
         ghc-hashable-devel              \
