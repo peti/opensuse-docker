@@ -21,6 +21,7 @@ RUN zypper --non-interactive install -y \
         ghc-tagged-devel                \
         ghc-text-devel                  \
         ghc-th-abstraction-devel        \
+        ghc-th-printf-devel             \
         ghc-time-locale-compat-devel    \
         ghc-transformers-compat-devel   \
         ghc-unordered-containers-devel  \
