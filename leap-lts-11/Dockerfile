@@ -15,4 +15,4 @@ RUN zypper --non-interactive ar -c -p 25 -r https://download.opensuse.org/reposi
       ghc-weeder        \
       happy             \
       hlint             \
-      stack		\
+      stack
