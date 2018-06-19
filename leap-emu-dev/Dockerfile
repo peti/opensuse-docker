@@ -35,3 +35,6 @@ RUN zypper --non-interactive update     \
       texlive-substr
 
 RUN Rscript --vanilla -e 'install.packages(c("data.table","xtable","RSQLite","plan"),repos="https://cloud.r-project.org")'
+
+# build@a86b9d6102f2:~> Rscript -e 'dir.create(Sys.getenv("R_LIBS_USER"), recursive=T)'
+# build@a86b9d6102f2:~> Rscript --vanilla -e 'install.packages(c("xtable"),lib=Sys.getenv("R_LIBS_USER"),repos="https://cloud.r-project.org")'
