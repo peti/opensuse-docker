@@ -14,7 +14,7 @@ RUN zypper --non-interactive install -y \
 # Create build user (with sudo access).
 
 RUN zypper --non-interactive install -y sudo \
- && sed -i -e "s/^# %wheel ALL=(ALL) NOPASSWD: ALL/%root ALL=(ALL) NOPASSWD: ALL/" /etc/sudoers
+ && sed -i -e "s/^# %wheel ALL=(ALL) NOPASSWD: ALL/%root ALL=(ALL) NOPASSWD: ALL/" /etc/sudoers \
  && useradd -c "Build User" -u 1000 -g users -G root -m -s /bin/bash build
 USER build
 WORKDIR /home/build
