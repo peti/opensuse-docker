@@ -11,6 +11,9 @@ RUN zypper --non-interactive install -y \
       happy                             \
       stack
 
+RUN zypper --non-interactive install -y \
+      git
+
 # Create build user (with sudo access).
 
 RUN zypper --non-interactive install -y sudo \
