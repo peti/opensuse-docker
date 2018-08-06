@@ -1,6 +1,6 @@
 # Dockerfile for MCP development on openSUSE Leap.
 
-FROM psimons/opensuse-docker:leap-lts-11
+FROM psimons/opensuse-docker:leap-lts-12
 LABEL maintainer="Peter Simons <simons@cryp.to>"
 
 RUN zypper --non-interactive install -y         \
