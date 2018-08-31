@@ -17,8 +17,6 @@ RUN zypper --non-interactive install -y         \
         ghc-iconv-devel                         \
         ghc-lambdabot-core-devel                \
         ghc-lambdabot-irc-plugins-devel         \
-        ghc-lambdabot-reference-plugins-devel   \
-        ghc-lambdabot-social-plugins-devel      \
         ghc-lens-aeson-devel                    \
         ghc-lens-devel                          \
         ghc-lifted-base-devel                   \
