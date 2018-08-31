@@ -3,7 +3,7 @@
 FROM opensuse/leap
 LABEL maintainer="Peter Simons <simons@cryp.to>"
 
-RUN zypper --non-interactive ar -c -p 25 -r https://download.opensuse.org/repositories/devel:/languages:/haskell:/lts:/next/openSUSE_Leap_15.0/devel:languages:haskell:lts:next.repo \
+RUN zypper --non-interactive ar -c -p 25 -r https://download.opensuse.org/repositories/devel:/languages:/haskell:/lts:/12/openSUSE_Leap_15.0/devel:languages:haskell:lts:12.repo \
  && zypper --non-interactive --gpg-auto-import-keys refresh \
  && zypper --non-interactive update \
  && zypper --non-interactive install -y \
