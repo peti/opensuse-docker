@@ -4,10 +4,6 @@ FROM opensuse/tumbleweed
 LABEL maintainer="Peter Simons <simons@cryp.to>"
 
 RUN zypper --non-interactive install -y \
-      alex                              \
-      bind-utils                        \
       cabal-install                     \
-      ghc                               \
-      happy                             \
-      stack				\
-      git
+      curl                              \
+      ghc
