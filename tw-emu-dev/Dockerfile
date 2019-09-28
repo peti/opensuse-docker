@@ -23,7 +23,8 @@ RUN zypper --non-interactive update     \
 RUN Rscript --vanilla -e 'install.packages(c("data.table","xtable","RSQLite","plan"),repos="https://cloud.r-project.org")'
 
 RUN zypper --non-interactive install -y \
-      texinfo
+      texinfo                           \
+      tar
 
 #       openssh                           \
 #       osc                               \
@@ -37,4 +38,3 @@ RUN zypper --non-interactive install -y \
 #       python2-PyYAML                    \
 #       python2-rpm                       \
 #       python2-typing                    \
-#       tar                               \
