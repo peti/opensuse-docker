@@ -14,6 +14,8 @@ RUN zypper --non-interactive update     \
       R                                 \
       rsync                             \
       sqlite3                           \
+      tar                               \
+      texinfo                           \
       texlive-ae                        \
       texlive-fancyvrb                  \
       texlive-isodate                   \
@@ -21,20 +23,3 @@ RUN zypper --non-interactive update     \
       texlive-substr
 
 RUN Rscript --vanilla -e 'install.packages(c("data.table","xtable","RSQLite","plan"),repos="https://cloud.r-project.org")'
-
-RUN zypper --non-interactive install -y \
-      texinfo                           \
-      tar
-
-#       openssh                           \
-#       osc                               \
-#       python-base                       \
-#       python-urlgrabber                 \
-#       python-xml                        \
-#       python2-cssselect                 \
-#       python2-lxml                      \
-#       python2-M2Crypto                  \
-#       python2-pycurl                    \
-#       python2-PyYAML                    \
-#       python2-rpm                       \
-#       python2-typing                    \
