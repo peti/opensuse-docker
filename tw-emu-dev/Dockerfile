@@ -20,6 +20,7 @@ RUN zypper --non-interactive update     \
       texlive-fancyvrb                  \
       texlive-isodate                   \
       texlive-parskip                   \
-      texlive-substr
+      texlive-substr                    \
+      zlib-devel
 
 RUN Rscript --vanilla -e 'install.packages(c("data.table","xtable","RSQLite","plan"),repos="https://cloud.r-project.org")'
