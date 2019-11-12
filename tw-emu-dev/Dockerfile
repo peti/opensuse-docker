@@ -9,6 +9,7 @@ RUN zypper --non-interactive update     \
       ghostscript                       \
       git                               \
       make                              \
+      pandoc                            \
       python                            \
       python3-dateutil                  \
       R                                 \
@@ -17,6 +18,7 @@ RUN zypper --non-interactive update     \
       tar                               \
       texinfo                           \
       texlive-ae                        \
+      texlive-cjk                       \
       texlive-fancyvrb                  \
       texlive-isodate                   \
       texlive-parskip                   \
