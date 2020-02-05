@@ -25,4 +25,4 @@ RUN zypper --non-interactive update     \
       texlive-substr                    \
       zlib-devel
 
-RUN Rscript --vanilla -e 'install.packages(c("data.table","xtable","RSQLite","RPostgreSQL","plan"),repos="https://cloud.r-project.org")'
+RUN Rscript --vanilla -e 'install.packages(c("assertthat","data.table","xtable","RSQLite","RPostgreSQL","plan"),repos="https://cloud.r-project.org")'
