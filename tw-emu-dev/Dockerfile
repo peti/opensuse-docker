@@ -10,6 +10,8 @@ RUN zypper --non-interactive update     \
       git                               \
       make                              \
       pandoc                            \
+      postgresql-devel                  \
+      postgresql-server-devel           \
       python                            \
       python3-dateutil                  \
       R                                 \
